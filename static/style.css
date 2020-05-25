@@ -1,0 +1,12 @@
+.nav navbar-nav{
+    font-style: normal;
+    font-size: medium;
+    font-family: Franklin Gothic Medium;
+    /*#aa00ff purple accent-4*/
+    color: purple; 
+
+}
+
+.jumbotron{
+    color: #aa00ff; 
+}
