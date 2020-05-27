@@ -6263,6 +6263,11 @@ button.bg-dark:focus {
   border-radius: 0.25rem !important;
 }
 
+.rounded mx-auto d-block{
+  border-radius: 0.25rem !important;
+
+}
+
 .rounded {
   border-radius: 0.5rem !important;
 }
@@ -9701,9 +9706,13 @@ button.bg-dark:focus {
   text-align: right !important;
 }
 
-.text-center {
+/*.text-center {
   text-align: center !important;
+  
+
 }
+*/
+
 
 @media (min-width: 576px) {
   .text-sm-left {
@@ -10147,11 +10156,12 @@ h3 {
   width: 15rem;
 }
 
-/*.jumbotron {
-  background-image: url("../static/assets/img/cabin.png");
-  background-size: 100%;
+/*Added new section for header near profile pic*/
+.jumbotron-header.lead{
+  font-size: 3rem;
+   
 }
-*/
+
 
 @media (min-width: 992px) {
   .masthead {
