@@ -390,8 +390,9 @@ h6, .h6 {
 }
 
 .lead {
-  font-size: 1.25rem;
-  font-weight: 300;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.2;
 }
 
 .display-1 {
@@ -10088,13 +10089,13 @@ h3 {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: white /*#1abc9c*/;
+  color: #1abc9c;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: white /*#1abc9c*/;
+  color: #1abc9c;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -10116,11 +10117,11 @@ h3 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: white /*#1abc9c*/;
+    background: #1abc9c;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: white /*#1abc9c*/;
+    background: #1abc9c;
   }
 
   #mainNav.navbar-shrink {
@@ -10145,6 +10146,12 @@ h3 {
 .masthead .masthead-avatar {
   width: 15rem;
 }
+
+/*.jumbotron {
+  background-image: url("../static/assets/img/cabin.png");
+  background-size: 100%;
+}
+*/
 
 @media (min-width: 992px) {
   .masthead {
