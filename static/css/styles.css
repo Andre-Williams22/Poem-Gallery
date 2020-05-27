@@ -1734,13 +1734,13 @@ pre code {
 .table-primary,
 .table-primary > th,
 .table-primary > td {
-  background-color: #bfece3;
+  background-color: white /* #bfece3*/;
 }
 .table-primary th,
 .table-primary td,
 .table-primary thead th,
 .table-primary tbody + tbody {
-  border-color: #88dccc;
+  border-color:#88dccc;
 }
 
 .table-hover .table-primary:hover {
