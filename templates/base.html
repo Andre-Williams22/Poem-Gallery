@@ -79,15 +79,19 @@
 
         <header class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
-                <div class="jumbotron">
-                    <div class= "card text-white bg-primary mb-3" style="max-width: 30rem";>
-                        <img class="card-img-top" src="../static/assets/img/portfolio/cabin.png" alt = "card image cap">
-                    <h1 class="display-4">Poem Gallery</h1>
-                    <p class="lead">Lois Jones Poem Gallery</p>
+                <div class="jumbotron-header">
+                    <!--<div class="card border-info mb-3" style="max-width: 50rem;"></div>-->
+                    <div class= "card text-white bg-dark mb-3" style="max-width: 50rem";>
+                        <div class="text-center">
+                        <!--img src="../static/assets/img/portfolio/profile-photo.jpg" class="rounded mx-auto d-block" alt="profile image"></div>-->
+                        <img class="card-img-top" src="../static/assets/img/portfolio/profile-photo.jpg" alt = "card image cap">
+                        </div>
+                    <h1 class="display-3">Welcome to</h1>
+                    <h2 class="display-4">Lois Jones Poem Gallery</h2>
+                    </div>
                 </div>
             </div>
-            </div>
-          
+        </header>
 
            <!-- <div class="container d-flex align-items-center flex-column">
                 Masthead Avatar Image<img class="profile-pic" src="../static/assets/img/cabin.png" alt="" /> Masthead Heading
@@ -101,7 +105,6 @@
                  Masthead Subheading
                 <p class="masthead-subheading font-weight-light mb-0">Lois Jones Poem Gallery</p></div>-->
     
-        </header>
         <!-- Portfolio Section-->
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
@@ -172,43 +175,52 @@
                 </div>
             </div>
         </section>
-        <!-- About Section-->
+        <!--
+        About Section
         <section class="page-section bg-primary text-white mb-0" id="about">
             <div class="container">
-                <!-- About Section Heading-->
+                 About Section Heading
                 <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
-                <!-- Icon Divider-->
+                Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- About Section Content-->
+                <!-- About Section Content
                 <div class="row">
                     <div class="col-lg-4 ml-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
                     <div class="col-lg-4 mr-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
                 </div>
-                <!-- About Section Button-->
+                About Section Button
                 <div class="text-center mt-4">
                     <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/"><i class="fas fa-download mr-2"></i>Free Download!</a>
                 </div>
             </div>
-        </section>
+        </section>--->
         <!-- Contact Section-->
         <section class="page-section" id="contact">
             <div class="container">
                 <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+                <!--h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Latest Poem</h2-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Latest Poem</h2>
+                <h3 class="page-section-heading text-center text-uppercase text-secondary mb-0">May 28th, 2020</h3>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- Contact Section Form-->
+            <div class="text-center">
+                 <!-- Image of Latest Poem--><img class="img-fluid rounded mb-5" src="../static/assets/img/portfolio/cabin.png" alt="" />
+            </div>
+
+
+
+                <!-- Contact Section Form
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
-                        <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.-->
+                        To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.
                         <form id="contactForm" name="sentMessage" novalidate="novalidate">
                             <div class="control-group">
                                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
@@ -241,7 +253,10 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
+
+
+
         <!-- Footer-->
         <footer class="footer text-center">
             <div class="container">
@@ -249,7 +264,7 @@
                     <!-- Footer Location-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Location</h4>
-                        <p class="lead mb-0">2215 John Daniel Drive<br />Clark, MO 65243</p>
+                        <p class="lead mb-0">P.O. Box 375 <br />Dallas, TX 75074</p>
                     </div>
                     <!-- Footer Social Icons-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
@@ -258,15 +273,15 @@
                     </div>
                     <!-- Footer About Text-->
                     <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                        <p class="lead mb-0">Freelance is a free to use, MIT licensed Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                        <h4 class="text-uppercase mb-4">About Poem Gallery</h4>
+                        <p class="lead mb-0">This website was created for those who like to read poetry.</p>
                     </div>
                 </div>
             </div>
         </footer>
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright © Your Website 2020</small></div>
+            <div class="container"><small>Copyright © 2020 Poem Gallery</small></div>
         </div>
         <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
         <div class="scroll-to-top d-lg-none position-fixed">
