@@ -159,12 +159,12 @@ sup {
 }
 
 a {
-  color: #1abc9c;
+  color: #6f42c1;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #117964;
+  color: #6f42c1;
   text-decoration: underline;
 }
 
@@ -1734,13 +1734,13 @@ pre code {
 .table-primary,
 .table-primary > th,
 .table-primary > td {
-  background-color: #bfece3;
+  background-color:#bfece3;
 }
 .table-primary th,
 .table-primary td,
 .table-primary thead th,
 .table-primary tbody + tbody {
-  border-color: #88dccc;
+  border-color:#88dccc;
 }
 
 .table-hover .table-primary:hover {
@@ -1780,7 +1780,7 @@ pre code {
 .table-success td,
 .table-success thead th,
 .table-success tbody + tbody {
-  border-color: #8fd19e;
+  border-color:#8fd19e;
 }
 
 .table-hover .table-success:hover {
@@ -10088,13 +10088,13 @@ h3 {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #1abc9c;
+  color: white /*#1abc9c*/;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #1abc9c;
+  color: white /*#1abc9c*/;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -10116,11 +10116,11 @@ h3 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #1abc9c;
+    background: white /*#1abc9c*/;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #1abc9c;
+    background: white /*#1abc9c*/;
   }
 
   #mainNav.navbar-shrink {
