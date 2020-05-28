@@ -8,9 +8,32 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+
+@app.route('/coronavirus')
+def coronavirus():
+
+    return render_template('coronavirus.html')
+
+
+@app.route('/family')
+def family():
+    return render_template('family.html')
+
 @app.route('/about')
 def about():
     return render_template('about.html')
+
+@app.route('/life')
+def life():
+    return render_template('life.html')
+
+@app.route('/relationships')
+def relationships():
+    return render_template('relationships.html')
+
+@app.route('/love')
+def love():
+    return render_template('love.html')
 
 @app.route('/contact')
 def contact():
