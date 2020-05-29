@@ -417,6 +417,7 @@ h6, .h6 {
   font-size: 3.5rem;
   font-weight: 300;
   line-height: 1.2;
+  align-content: center;
 }
 
 hr {
@@ -9710,12 +9711,11 @@ button.bg-dark:focus {
   text-align: right !important;
 }
 
-/*.text-center {
-  text-align: center !important;
+.text-center {
+  align-items: center;
   
 
 }
-*/
 
 
 @media (min-width: 576px) {
@@ -10016,11 +10016,13 @@ h3 {
   padding: 6rem 0;
 }
 .page-section .page-section-heading {
+  align-items: center;
   font-size: 2.25rem;
   line-height: 2rem;
 }
 @media (min-width: 992px) {
   .page-section .page-section-heading {
+    align-items: center;
     font-size: 3rem;
     line-height: 2.5rem;
   }
