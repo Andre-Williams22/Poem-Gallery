@@ -24,34 +24,43 @@
                 <a class="navbar-brand js-scroll-trigger" href="#">Poem Gallery</a><button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class = "navbar-nav">
-                        <li class = "nav-item">
-                            <a class = "nav-link"  href = "{{ url_for('index')}}">Home</a>
-                            </a>
-
-                        </li>
-                        <li class = "nav-item ">
-                            <a class = "nav-link" href = "{{ url_for('about')}}">About</a>
-                            </a>
-                        </li>
                         <li class = "nav-item dropdown">
-                            <a class = "nav-link dropdown-toggle" data-toggle= "dropdown" data-target= "dropdown_target"  href = "{{ url_for('poems')}}">Poems</a>
+                            <a class = "nav-link dropdown-toggle" data-toggle = "dropdown" data-target= "dropdown_target" href = "#">Home</a>
                             <span class="caret"></span>
                             </a>
                         <div class= "dropdown-menu" aria-labelledby="dropdown_target">
-                            <a class = "dropdown-item"  href = "{{ url_for('coronavirus')}}">Coronavirus</a> 
-                            <div class = "dropdown-divider"></div>
-                            <a class = "dropdown-item" href = "{{ url_for('family')}}">Family</a>
-                            <div class = "dropdown-divider"></div>
-                            <a class = "dropdown-item"  href = "{{ url_for('life')}}">Life</a>
-                            <div class = "dropdown-divider"></div>
-                            <a class = "dropdown-item"  href = "{{ url_for('love')}}">Love</a>
-                            <div class = "dropdown-divider"></div>
-                            <a class = "dropdown-item" href = "{{ url_for('relationships')}}">Relationships</a>    
+                            <a class = "dropdown-item">Info</a>
                         </div>
                         </li>
                         <li class = "nav-item dropdown">
-                            <a class = "nav-link dropdown-toggle" data-toggle= "dropdown" data-target= "dropdown_target"  href = "{{ url_for('contact')}}">Contact</a>
-                           
+                            <a class = "nav-link dropdown-toggle" data-toggle= "dropdown" data-target= "dropdown_target" href = "#">About</a>
+                            <span class="caret"></span>
+                            </a>
+                        <div class= "dropdown-menu" aria-labelledby="dropdown_target">
+                            <a class = "dropdown-item">Bio</a>
+                            <div class = "dropdown-divider"></div>
+                            <a class = "dropdown-item">Pics</a>  
+                        </div>
+                        </li>
+                        <li class = "nav-item dropdown">
+                            <a class = "nav-link dropdown-toggle" data-toggle= "dropdown" data-target= "dropdown_target" href = "#">Poems</a>
+                            <span class="caret"></span>
+                            </a>
+                        <div class= "dropdown-menu" aria-labelledby="dropdown_target">
+                            <a class = "dropdown-item" href= "index.html">Coronavirus</a> 
+                            <div class = "dropdown-divider"></div>
+                            <a class = "dropdown-item">Family</a>
+                            <div class = "dropdown-divider"></div>
+                            <a class = "dropdown-item">Life</a>
+                            <div class = "dropdown-divider"></div>
+                            <a class = "dropdown-item">Love</a>
+                            <div class = "dropdown-divider"></div>
+                            <a class = "dropdown-item">Relationships</a>    
+                        </div>
+                        </li>
+                        <li class = "nav-item dropdown">
+                            <a class = "nav-link dropdown-toggle" data-toggle= "dropdown" data-target= "dropdown_target" href = "# ">Contact</a>
+                            <span class="caret"></span>
                             </a>
                         <div class= "dropdown-menu" aria-labelledby="dropdown_target">
                             <a class = "dropdown-item">Info</a>
@@ -64,8 +73,8 @@
 
         <!-- Masthead-->
         <div class="jumbotron">
-            <h1 class="display-4">Coronavirus Page</h1>
-            <p class="lead">This page has poems written about living during the 2020 Coronaviurs Pandemic.
+            <h1 class="display-4">Life Poems</h1>
+            <p class="lead">This is page is written to family and friends about life.
             </p>
         </div>
 
