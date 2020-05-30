@@ -1,3 +1,4 @@
+# imports dependencies 
 from flask import Flask, render_template, url_for, redirect 
 
 
@@ -13,7 +14,6 @@ def index():
 def coronavirus():
 
     return render_template('coronavirus.html')
-
 
 @app.route('/family')
 def family():
@@ -42,6 +42,8 @@ def contact():
 @app.route('/poems')
 def poems():
     return render_template('poems.html')
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)
