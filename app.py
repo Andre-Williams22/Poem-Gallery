@@ -9,10 +9,8 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-
 @app.route('/coronavirus')
 def coronavirus():
-
     return render_template('coronavirus.html')
 
 @app.route('/family')
@@ -42,7 +40,6 @@ def contact():
 @app.route('/poems')
 def poems():
     return render_template('poems.html')
-
 
 
 if __name__ == '__main__':
