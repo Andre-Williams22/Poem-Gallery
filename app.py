@@ -41,6 +41,9 @@ def contact():
 def poems():
     return render_template('poems.html')
 
+@app.route('/birthday')
+def birthday():
+    return render_template('birthday.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
