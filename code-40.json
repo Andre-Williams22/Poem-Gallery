@@ -1,0 +1,253 @@
+{
+    "firstname": "Lauren ",
+    "lastname": "Williams",
+    "contact": {
+      "email": "law9779@gmail.com",
+      "phone": "(214) 395-0491",
+      "linkedin": "linkedin.com/in/l-williams-/"
+    },
+    "skills": {
+      "details": [
+        {
+          "type": "Programming Languages",
+          "items": [
+            "CSS",
+            "HTML5",
+            "Python",
+            "Java",
+            "Javascript",
+            "SQL"
+          ]
+        },
+        {
+          "type": "Web Frameworks",
+          "items": [
+            "Flask",
+            "JUnit",
+            "Spring Boot"
+          ]
+        },
+        {
+          "type": "Databases",
+          "items": [
+            "MySQL",
+            "PostgreSQL"
+          ]
+        },
+        {
+          "type": "Tools",
+          "items": [
+            "Git",
+            "Heroku",
+            "AWS",
+            "Azure",
+            "Jenkins",
+            "IntelliJ",
+            "Google Cloud Platform",
+            "Cloudfare"
+          ]
+        },
+        {
+          "type": "Interests",
+          "items": [
+            "Big Data",
+            "Machine Learning",
+            "Web Development",
+            "Data Science",
+            "Artificial Intelligence",
+            "Data Engineering"
+          ]
+        }
+      ]
+    },
+   "work_experience": {
+      "items": [
+        {
+          "title": "Codecademy Data Scientist: Machine Learning Specialist Certificate",
+          "organization": "Codecademy",
+          "location": "Dallas, TX",
+          "from": "June 2022",
+          "to": "Present",
+          "details": [
+            "Query and manipulate data with SQL and Python pandas.",
+            "Create data visualizations with Python matplotlib and seaborn.",
+            "Summarize and analyze datasets, conduct hypothesis testing.",
+            "Clean and tidy datasets.",
+            "Build, train, and test supervised and unsupervised machine learning models.",
+            "Evaluate model performance and decide when to apply a given model."
+          ],
+          "technology_used": {
+            "tools": [
+              "Python",
+              "SQL",
+              "Python Pandas",
+              "Matplotlib",
+              "Seaborn"
+            ]
+          }
+        },
+        {
+          "title": "Software Engineer",
+          "organization": "Allstate Insurance Co.",
+          "location": "Charlotte, NC",
+          "from": "June 2020",
+          "to": "September 2021",
+          "details": [
+            "Designed and Developed over three features for an application to increase F&I profits for dealerships using react,storybook, and web services.",
+            "Engineered a feature for Avail Car Sharing to improve the efficiency of authentication flow while assuring thedata is stored and updated for the user base.",
+            "Built a module to update and view available products for users and improved the authentication flow for login ofall users using test-driven development with Junit, react, spring boot, and JSON Restful API."
+          ],
+          "technology_used": {
+            "tools": [
+              "Java",
+              "JUnit",
+              "Spring Boot",
+              "Grafana",
+              "Jenkins",
+                "React",
+                "IntelliJ",
+                "JSON Restful API",
+                "Postman",
+                "Gradle",
+                "Web services",
+                "Contentful",
+                "Pivotal Cloud Foundry"
+            ]
+          }
+        },
+    {
+          "title": "Networking and Operations Intern",
+          "organization": "Sirius XM Holdings, Inc.",
+          "location": "Omaha, NE",
+          "from": "June 2019",
+          "to": "August 2019",
+          "details": [
+            "Analyzed IT customers’ challenges and implemented solutions that both pleased the customers and aligned withdepartment standards, policies, and procedures.",
+            "Troubleshoot and resolved timely reported issues with a focus on customer service and service level objections."
+          ],
+          "technology_used": {
+            "tools": [
+              "Firewalls",
+              "Wifi Routers",
+              "Access Control",
+              "Endpoint Security",
+              "Wireless Security",
+                "Web Security"
+            ]
+          }
+        },
+    "involvement", { 
+      "organizations": [
+        "Founder & Conference Coordinator, Connect at Creighton Conference, Omaha, NE, May 2019 to February 2020",
+        "Coordinated the first-ever conference on Creighton's campus that was geared towards promoting career growth opportunities for underrepresented racial minorities to connect underrepresented minorities with Creighton Alumni, Industry professionals.",
+        "Designed a student-led conference that partners with the Creighton University Office of Institutional Diversity & Inclusion, Creighton Career Center, and University Relations.",
+        "Diversity & Inclusion Coordinator, Creighton Student Union (Student Government), Omaha, NE, January 2019 to August 2020",
+        "Implemented a cultural competency course to educate students about the importance of learning and accepting other people and their cultures.",
+        "Currently working on a first-ever pilot program at my school to provide free feminine products.",
+        "Advisory Council Member, NSCS National Leadership Council, Washington D.C., January 2017 to August 2019",
+        "The National Leadership Council (NLC) is a student advisory board is comprised of selected NSCS members who advise the NSCS Board of Directors and national staff.",
+        "The NLC collects feedback from chapters to improve the NSCS experience for all members, and NLC members speak at their chapter’s New Member Induction Ceremony held in the fall.",
+        "NLC members serve as peer resources to chapter officers and NSCS’ member engagement team.",
+        "Volunteer, Minnie’s Food Pantry, Dallas, TX, November 2021 to December 2021",
+        "Distributed over 17,000 meals to our hungry friends during Thanksgiving and Christmas giveaways",
+        "Children’s Ministry Volunteer, CityLight Church Omaha, Omaha, NE, September 2019 to March 2020",
+        "Implemented a weekly curriculum for the spiritual development of an average of 40 kids from birth to one yearOld.",
+        "Maintained communication with the parents to ensure child development was progressing in a positive direction."
+      ]
+    },
+    "achievements", {
+      "items": [
+        "Awarded Undergraduate Board of Representative of the Year, December 2019",
+        "Recipient, Google Student Travel Grace Hopper Scholarship, August 2019",
+        "Participant/Recipient, Make school Summer Academy Scholarship, June 2018"
+      ]
+    },
+    "additional_info", {
+      "items": [
+        "Languages: English (fluent), Spanish (basic)",
+        "Interests: Dancing, Interior Design, Photography, Board Games, Cooking"
+      ]
+    },
+    "education", {
+      "schools": [
+        {
+          "degree": "Master of Science",
+          "major": "Computer Science",
+          "institution": "The University of North Carolina at Charlotte",
+          "graduation_year": 2024
+        },
+   {
+          "degree": "Bachelor of Science",
+          "major": "Computer Science",
+          "institution": "Creighton University",
+          "graduation_year": 2020
+        },
+   {
+          "degree": "Bachelor of Science",
+          "major": "Computer Science",
+          "institution": "Collin College",
+          "graduation_year": 2020
+        }
+      ]
+    },
+    "undergrad_courses", [
+      {
+        "name": "Object Oriented Programming",
+        "url": "https://catalog.creighton.edu/undergraduate/arts-sciences/csdj/computer-science/computer-science-bs/index.html"
+      },
+      {
+        "name": "Intro to Programming",
+        "url": "https://catalog.creighton.edu/undergraduate/arts-sciences/csdj/computer-science/computer-science-bs/index.html"
+      },
+      {
+        "name": "Web Development",
+        "url": "https://catalog.creighton.edu/undergraduate/arts-sciences/csdj/computer-science/computer-science-bs/index.html"
+      },
+      {
+        "name": "Computer Organization",
+        "url": "https://catalog.creighton.edu/undergraduate/arts-sciences/csdj/computer-science/computer-science-bs/index.html"
+      },
+      {
+        "name": "Data Structures",
+        "url": "https://catalog.creighton.edu/undergraduate/arts-sciences/csdj/computer-science/computer-science-bs/index.html"
+      }
+    ],
+    "grad_courses", [
+      {
+        "name": "Parallel Computing",
+        "url": "https://cci.charlotte.edu/academics/computer-science/masters-program/ms-requirements"
+      },
+   {
+        "name": "Data Visualization",
+        "url": "https://cci.charlotte.edu/academics/computer-science/masters-program/ms-requirements"
+      },
+   {
+        "name": "Machine Learning",
+        "url": "https://cci.charlotte.edu/academics/computer-science/masters-program/ms-requirements"
+      },
+   {
+        "name": "Visual Analytics",
+        "url": "https://cci.charlotte.edu/academics/computer-science/masters-program/ms-requirements"
+      }
+     ],
+    "research_experience", {
+      "items": [
+        {
+          "title":"Radlab Intern",
+          "organization": "Research and Development Lab, Creighton University",
+          "from": "March 2019",
+          "to": "August 2019",
+          "points": [
+            "Developed and sent feature recommendations to Canon Inc. to test and improve their new camera API with photogrammetry.",
+            "Created and Designed a variety of scenes with multiple users with Sansar and AWS Sumerian (virtual reality software) to create a ‘welcome center’ for university faculty, staff, and students."
+          ]
+        }
+      ]
+    },
+    "show_assessments_on_resume", {
+      "required_assessment": true,
+      "optional_assessment_1": true,
+      "optional_assessment_2": true,
+      "optional_assessment_3": true } ]}}
+  
+  
